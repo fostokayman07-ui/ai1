@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"UTF-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+  <title>My Portfolio</title>
+  <link rel=\"stylesheet\" href=\"style.css\">
+</head>
+<body>
+  <header class=\"hero\">
+    <h1>Ayman Fostok</h1>
+    <p>Cybersecurity Expert & Entrepreneur</p>
+    <button onclick=\"scrollToContact()\">Get In Touch</button>
+  </header>
+  <section class=\"about\">
+    <h2>About Me</h2>
+    <p>Founder of PistaSecure. Specializing in OSINT, investigations, and business ops.</p>
+  </section>
+  <section class=\"projects\">
+    <h2>Projects</h2>
+    <div class=\"grid\">
+      <div class=\"card\">
+        <h3>PistaSecure</h3>
+        <p>AI cyber threat scanner.</p>
+      </div>
+      <div class=\"card\">
+        <h3>StafficMedia</h3>
+        <p>SMM agency.</p>
+      </div>
+      <div class=\"card\">
+        <h3>OpenClaw AI</h3>
+        <p>Personal AI assistant.</p>
+      </div>
+    </div>
+  </section>
+  <section class=\"contact\" id=\"contact\">
+    <h2>Contact</h2>
+    <form id=\"contactForm\">
+      <input type=\"text\" placeholder=\"Name\" required>
+      <input type=\"email\" placeholder=\"Email\" required>
+      <textarea placeholder=\"Message\" required></textarea>
+      <button type=\"submit\">Send</button>
+    </form>
+  </section>
+  <script src=\"script.js\"></script>
+</body>
+</html>
